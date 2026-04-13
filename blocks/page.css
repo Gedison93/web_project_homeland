@@ -1,20 +1,23 @@
 .page {
+  overflow: hidden;
   margin: 0 auto;
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
   background-color: #2a2c2f;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .page {
+    overflow: hidden;
     margin: 0 auto;
-    width: 768px;
+
     background-color: #2a2c2f;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .page {
+    overflow: hidden;
     margin: 0 auto;
-    width: 320;
     background-color: #2a2c2f;
   }
 }
