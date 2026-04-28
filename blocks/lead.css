@@ -1,102 +1,64 @@
 .lead {
-  width: 984px;
+  max-width: 984px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 .lead__title {
-  width: 720px;
+  font-weight: 900;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Inter;
-  font-weight: 900px;
-  font-style: normal;
   font-size: 96px;
   line-height: 100px;
-  letter-spacing: 0%;
   text-align: center;
-  color: #ffffff;
 }
 .lead__subtitle {
   margin: 0 auto;
   margin-bottom: 64px;
-  width: 720px;
-  opacity: 1;
-  font-family: Inter;
-  font-weight: 400;
+  max-width: 720px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #ffffff;
 }
 .lead__image {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 984px;
+  margin-left: 148px;
+  margin-right: 148px;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .lead__title {
-    width: 530px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Inter;
-    font-weight: 900px;
-    font-style: normal;
+    max-width: 530px;
     font-size: 75px;
     line-height: 79px;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #ffffff;
   }
-  .lead__subtitle {
-    margin: 0 auto;
-    width: 720px;
-    opacity: 1;
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #ffffff;
+  .lead__image {
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 544px) {
   .lead {
-    width: 288px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: unset;
   }
 
   .lead__title {
-    width: 228px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Inter;
-    font-weight: 900px;
-    font-style: normal;
+    max-width: 228px;
     font-size: 40px;
     line-height: 44px;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #ffffff;
   }
+
   .lead__subtitle {
-    margin: 0 auto;
-    width: 288px;
-    opacity: 1;
-    font-family: Inter;
-    font-weight: 400;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
-    color: #ffffff;
   }
 }
